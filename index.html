@@ -4,12 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <meta name="viewport" content="width=device-width"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script defer src="js/script.js"></script>
     <title>Test GlobalNS</title>
 </head>
 
 <body>
+  <!--   <div class="popup">
+        <div class="container">
+            <form class="popup__form" action="#" method="get">
+                <h1 class="popup__header">Добавить товар</h1>
+                <div class="popup__field">
+                    <p>Стоимость товара</p>
+                    <input type="text" name="cost" value="1000" required>
+                </div>
+                <div class="popup__field">
+                    <p>Имя</p>
+                    <input type="text" name="username" value=""  required tabindex="1" placeholder="Имя">
+                </div>
+                <div class="popup__field">
+                    <p>Номер телефона</p>
+                    <input type="tel" name="phoneNumber" value=""  required tabindex="2" placeholder="+7(___) ___ __ __">
+                </div>
+                <div class="popup__button">
+                    <button type="submit">Добавить</button>
+                </div>
+            </form>
+        </div>
+    </div> -->
     <div class="wrapper">
         <header class="header">
             <div class="container">
@@ -43,7 +65,7 @@
                                     <p><a href="#">Мандрагора</a></p>
                                     <p>Волшебные скидки!</p>
                                 </div>
-                                <div class="three-block__button">1190 р</div>
+                                <div data-cost class="three-block__button">1190 р</div>
                             </div>
                         </div>
                         <div class="three-block__column">
@@ -53,7 +75,7 @@
                                     <p><a href="#">Большой Замес в маленьком Токио</a></p>
                                     <p>Японщина во всей красе!</p>
                                 </div>
-                                <div class="three-block__button">990 р</div>
+                                <div data-cost class="three-block__button">990 р</div>
                             </div>
                         </div>
                         <div class="three-block__column">
@@ -63,7 +85,7 @@
                                     <p><a href="#">Экосистема</a></p>
                                     <p>Биологическое разнообразие</p>
                                 </div>
-                                <div class="three-block__button">990 р</div>
+                                <div data-cost class="three-block__button">990 р</div>
                             </div>
                         </div>
                     </div>
@@ -77,7 +99,7 @@
                                     <p><a href="#">Зов Ктулху. Одиночное приключение: Лес вендиго</a></p>
                                     <p>Тайны индейских мифов</p>
                                 </div>
-                                <div class="two-block__button">1490 р</div>
+                                <div data-cost class="two-block__button">1490 р</div>
                             </div>
                         </div>
                         <div class="two-block__column">
@@ -87,7 +109,7 @@
                                     <p><a href="#">Зов Ктулху: Тень над Провиденсом</a></p>
                                     <p>Ужасные чудеса Древнего Египта</p>
                                 </div>
-                                <div class="two-block__button">690 р</div>
+                                <div data-cost class="two-block__button">690 р</div>
                             </div>
                         </div>
                     </div>
